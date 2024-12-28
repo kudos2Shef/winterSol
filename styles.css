@@ -1,0 +1,495 @@
+*{
+	margin: 0 ;
+	padding: 0;
+	scroll-behavior: smooth;
+	user-select: none;
+	box-sizing: border-box;
+}
+:root{
+
+	width: 1200px;
+	margin: 32px auto;
+	margin-bottom: 0;
+	 --fam:'Courier New';
+	/* --u:url('https://cdn.pixabay.com/animation/2023/03/19/01/50/01-50-32-950_512.gif'); */
+	--u:'img\img11.webp';
+	/* --u1:url('https://images.pexels.com/photos/1933317/pexels-photo-1933317.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+	--u1:url('img\img12.jpeg');
+	--color1:#98DDCA;
+	--color2:#D5ECC2;
+	--color3:#FFD3B4;
+	--color4:#FFAAA7;
+	--color5:rgb(152, 221, 202);
+	--color6:rgb(213, 236, 194);
+	--color7:rgb(255, 211, 180);
+	--color8:rgb(255, 170, 167);
+	--bg:rgba(17, 109, 110, 0.9);
+	--p: rgb(245, 245, 245);
+	--shadow: rgb(8, 2, 2);
+	--box-shadow:2px 3px var(--shadow);
+	background: linear-gradient(270deg,var(--color4),var(--color1),var(--color3),#C0FEFC,#B8B5FF
+,#F6DFEB,var(--color2)) ;
+
+--footer:rgb(249, 155, 125);
+--hemsp: 20px; 
+--header:rgb(24, 18, 43);
+--navlink_outline: rgb(205, 233, 144);
+--hvr: rgb(17, 109, 110);
+--navlink_a: rgb(242, 234, 211);
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+section{
+	margin: 32px 20px;
+}
+
+.nav{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+#conclusion>h2,#introduction>h2{
+	padding: 30px;
+
+}
+
+#conclusion>p,#introduction>p{
+	background-color:var(--bg) ;
+	font-size: var(--hemsp);
+	padding: 30px;
+	font-family: monospace;
+	text-align: justify;
+	color: var(--p);
+	box-shadow: var(--box-shadow);
+	border-radius: 10px;
+
+
+
+}
+
+
+
+
+
+#hemispheres {
+	column-count: 2;
+	text-align: justify;
+	color: var(--header);
+
+}
+
+ #hemispheres>p,#hemispheres>h2{
+	column-span: all;
+	text-align: center;
+		margin: 20px;
+
+}
+
+#hemispheres>p{
+	font-size: 30px;
+
+}
+
+.hemisphere>h3{
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: var(--hemsp);
+
+}
+
+.hemisphere>p{
+	margin: 0 20px;
+	line-height: 28px;
+	font-size: var(--hemsp);
+}
+
+
+#celebrations{
+	display: grid;
+	grid-template-columns:570px 570px ;
+	grid-template-rows: 200px 500px 500px ;
+	  gap: 20px;
+
+}
+#celebrations > h2{
+	grid-column: 1/-1;
+	margin: 20px;
+}
+
+#celebrations>article{
+		text-align: center;
+		align-content: center;
+		padding: 20px;
+		color: var(--p);
+
+
+}
+
+#celebrations>article>p{
+	font-family: var(--fam);
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+#celebrations>article>h3{
+	text-transform: uppercase;
+	font-family: var(--fam);
+	padding: 10px 0;
+		font-size: 20px;
+
+}
+#intiraymi{
+	background: linear-gradient(rgba(2, 0, 0, 0.5), rgba(2, 0, 0, 0.5)),url('https://media.npr.org/assets/img/2023/12/21/gettyimages-1233634926-6a7866b7a053b101f905b6568bcec7842fe4065b.jpg?s=1200&c=85&f=webp');
+	background-size:580px 500px;
+	border-radius:10px 100px 50px 100px ;
+}
+
+
+#newgrange{
+	background: linear-gradient(rgba(2, 0, 20, 0.2), rgba(2, 0, 20, 0.2)),url('https://www.newgrange.com/winter-solstice/newgrange-solstice-gov.jpg');
+	background-size:580px 500px ;
+	    border-radius: 100px 10px 100px 50px;
+
+
+}
+
+#modranicht{
+		background-size:580px 500px ;
+		background: linear-gradient(rgba(0, 0, 20, 0.5), rgba(0, 0, 20, 0.5)),url('https://i.pinimg.com/736x/21/a1/65/21a165e1b821b65b5cc307a008fae427.jpg');
+        border-radius:50px 100px 10px 100px ;
+
+
+}
+#koliada{
+	background: linear-gradient(rgba(0, 0, 20, 0.5), rgba(0, 0, 20, 0.5)),url('https://i0.wp.com/brendan-noble.com/wp-content/uploads/2021/01/13bd435145805e944eb8f87eb5a3d3a2.jpg?resize=768%2C524&ssl=1');
+	background-size: 580px 500px;
+	border-radius:100px 50px 100px 10px;
+
+
+
+}
+#traditions {
+ 
+  text-align: center;
+
+}
+
+
+#traditions > h2 {
+    margin: 20px; 
+}
+
+
+
+
+
+    #traditions ul{
+    display: grid;
+    grid-template-columns: 300px 280px 280px;
+    grid-template-rows: 460px 460px 460px;
+		row-gap: 20px;
+		column-gap: 1px;
+}
+
+#traditions>ul>li{
+padding:10px 0;
+}
+strong{
+	
+	line-height: 26px;
+	font-size: var(--hemsp);
+	font-weight:bolder ;
+	color: var(--p);
+	font-family: var(--fam);
+	padding: 2px 0;
+}
+#traditions p{
+	padding: 0 20px;
+	color: var(--p);
+	font-family: var(--fam);
+	font-size: var(--hemsp);
+}
+
+#traditions>ul>li:nth-child(3) strong{
+	color: var(--header);
+}
+#traditions>ul>li:nth-child(3) p{
+	color: var(--header);
+	font-weight: bold;
+}
+
+ 
+   #traditions ul li:nth-child(1)  { grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+	border-radius: 10px 150px 30px 150px;
+	background-color: var(--bg);
+
+}
+
+   #traditions ul li:nth-child(2){ 
+   	grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 6;
+         
+		  border-radius:150px 10px 150px 30px;
+		  background-color: var(--bg);
+
+
+}
+
+
+
+#traditions>ul>li:nth-child(3){ 
+	grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 6;
+	grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+	border-radius: 50% 20% / 10% 40%;
+		  background:linear-gradient(rgba(179, 179, 191, 0.2),rgba(179, 179, 191, 0.2)),url('https://images.pexels.com/photos/29873591/pexels-photo-29873591/free-photo-of-elegant-blue-and-green-wrapped-gift-boxes-on-white-fabric.jpeg?auto=compress&cs=tinysrgb&w=600');
+	
+		  align-content: center;
+			
+			filter: drop-shadow(0 0 .75rem  rgb(22,6,40));
+			color: var(--header) !important;
+
+}
+
+
+
+
+
+#traditions>ul>li:nth-child(4){ grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    border-radius:150px 30px 150px 10px;
+    background-color: var(--bg);
+
+
+
+}
+
+#traditions>ul>li:nth-child(5){ grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    text-align: center;
+	border-radius: 30px 150px 10px 150px;
+	background-color: var(--bg);
+}
+
+
+
+
+#main-header>h1{
+	text-align: center;
+    font-family: var(--fam);
+    font-weight: bolder;
+    font-size: 150px;
+    background: var(--u1);
+    background-size: cover;
+    background-position: 100% 36%;
+    padding:50px 20px;
+    color: transparent;
+    background-clip: text;
+
+}
+
+	h2{
+	font-size: 62px ;
+	font-weight: bolder;
+	background: var(--u);
+	background-clip: text;
+	color: transparent;
+	text-transform: uppercase;
+	font-family: var(--fam);
+
+}
+
+#main-footer{
+	display: flex;
+	background: var(--header);
+	color: var(--navlink_a);
+	height: 100px;
+	align-items: center;
+
+}
+
+#main-footer>p{
+	flex: 1;
+	text-align: center;
+	line-height: 80px;
+	font-size: var(--hemsp);
+	color: var(--p);
+	font-family: monospace;
+	
+
+}
+
+
+#footer-nav {
+	flex: 1;
+}
+
+#footer-nav>ul{
+	display: flex;
+	gap: 30px;
+
+
+}
+
+
+
+
+#science{
+	display: grid;
+
+grid-template-columns:400px 50px 350px 360px ;
+
+grid-template-rows:200px 300px 140px 140px 120px ;
+padding: 20px 0;
+}
+
+#science>h2{
+	height: fit-content;
+	width: 540px;
+	grid-row-start: 1;
+	grid-row-end: 6;
+	transform: rotate(-90deg) translateY(-70px) translateX(-240px);
+    font-family: var(--fam) ,cursive;
+    text-align: left;
+    font-size: 87px;
+    align-items: center;
+    grid-column-start:1 ;
+    grid-column-end: 2;
+
+}
+
+#science>div{
+
+grid-row-start: 1;
+	grid-row-end: 3;
+
+    grid-column-start:3;
+    grid-column-end: 5;
+    background: url('https://cdn.britannica.com/39/132039-050-16EB5919/orbit-Earth-Sun-solstices-Tropics-of-Cancer.jpg');
+    background-size: 710px 500px;
+    border-radius:10px 100px 50px 100px ;
+
+}
+
+#science>p{
+	padding-left: 5px;
+	padding-right: 20px;
+	padding-top: 10px;
+	line-height: 26px;
+    text-align: justify;
+    font-size: var(--hemsp);
+	background-color: var(--bg);
+	color: var(--p);
+
+	
+}
+#science>p:nth-child(2){
+	margin-top: 2px;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	border-radius:10px 10px 0 0;
+
+}
+
+#science>p:nth-child(3){
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start:3 ;
+	grid-column-end: 5;
+	
+
+}
+
+#science>p:nth-child(4){
+	grid-row-start: 5;
+	grid-row-end: 6;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	box-shadow: 0px 5px var(--shadow);
+	border-radius:0  0  10px 10px;
+}
+
+
+#main-nav{
+	background: var(--header);
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+#main-nav>ul{
+	display: flex;
+	justify-content: space-between;
+		width: 92%;
+		height:100px;
+		margin:auto;
+
+	align-items: center;
+	}
+
+
+
+#main-nav>ul>li,#footer-nav>ul>li{
+		line-height: 80px;
+		position: relative;
+		width: 160px;
+		text-align: center;
+
+}
+
+#main-nav>ul>li:nth-child(3){
+	width: 240px;
+}
+
+#main-nav>ul>li>a,#footer-nav>ul>li>a{
+	display: block;
+	width: 100%;
+	height: auto;
+	color: var(--navlink_a);
+
+	font-size: 17px;
+	letter-spacing: 1px;
+
+}
+
+#main-nav>ul>li>a:hover,#footer-nav>ul>li>a:hover{
+	outline: 2px solid var(--navlink_outline);
+	color: var(--hvr);
+}
+
+
+
+
+
+
