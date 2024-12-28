@@ -12,9 +12,9 @@
 	margin-bottom: 0;
 	 --fam:'Courier New';
 	/* --u:url('https://cdn.pixabay.com/animation/2023/03/19/01/50/01-50-32-950_512.gif'); */
-	--u:'img\img11.webp';
+	--u:url('img/img11.webp');
 	/* --u1:url('https://images.pexels.com/photos/1933317/pexels-photo-1933317.jpeg?auto=compress&cs=tinysrgb&w=600'); */
-	--u1:url('img\img12.jpeg');
+	--u1:url('img/img12.jpeg');
 	--color1:#98DDCA;
 	--color2:#D5ECC2;
 	--color3:#FFD3B4;
@@ -153,14 +153,14 @@ section{
 
 }
 #intiraymi{
-	background: linear-gradient(rgba(2, 0, 0, 0.5), rgba(2, 0, 0, 0.5)),url('https://media.npr.org/assets/img/2023/12/21/gettyimages-1233634926-6a7866b7a053b101f905b6568bcec7842fe4065b.jpg?s=1200&c=85&f=webp');
+	background: linear-gradient(rgba(2, 0, 0, 0.5), rgba(2, 0, 0, 0.5)),url('img/img3.webp');
 	background-size:580px 500px;
 	border-radius:10px 100px 50px 100px ;
 }
 
 
 #newgrange{
-	background: linear-gradient(rgba(2, 0, 20, 0.2), rgba(2, 0, 20, 0.2)),url('https://www.newgrange.com/winter-solstice/newgrange-solstice-gov.jpg');
+	background: linear-gradient(rgba(2, 0, 20, 0.2), rgba(2, 0, 20, 0.2)),url('img/img2.jpg');
 	background-size:580px 500px ;
 	    border-radius: 100px 10px 100px 50px;
 
@@ -169,13 +169,13 @@ section{
 
 #modranicht{
 		background-size:580px 500px ;
-		background: linear-gradient(rgba(0, 0, 20, 0.5), rgba(0, 0, 20, 0.5)),url('https://i.pinimg.com/736x/21/a1/65/21a165e1b821b65b5cc307a008fae427.jpg');
+		background: linear-gradient(rgba(0, 0, 20, 0.5), rgba(0, 0, 20, 0.5)),url('img/img4.jpg');
         border-radius:50px 100px 10px 100px ;
 
 
 }
 #koliada{
-	background: linear-gradient(rgba(0, 0, 20, 0.5), rgba(0, 0, 20, 0.5)),url('https://i0.wp.com/brendan-noble.com/wp-content/uploads/2021/01/13bd435145805e944eb8f87eb5a3d3a2.jpg?resize=768%2C524&ssl=1');
+	background: linear-gradient(rgba(0, 0, 20, 0.5), rgba(0, 0, 20, 0.5)),url('img/img5.webp');
 	background-size: 580px 500px;
 	border-radius:100px 50px 100px 10px;
 
@@ -265,7 +265,7 @@ strong{
     grid-column-end: 4;
     text-align: center;
 	border-radius: 50% 20% / 10% 40%;
-		  background:linear-gradient(rgba(179, 179, 191, 0.2),rgba(179, 179, 191, 0.2)),url('https://images.pexels.com/photos/29873591/pexels-photo-29873591/free-photo-of-elegant-blue-and-green-wrapped-gift-boxes-on-white-fabric.jpeg?auto=compress&cs=tinysrgb&w=600');
+		  background:linear-gradient(rgba(179, 179, 191, 0.2),rgba(179, 179, 191, 0.2)),url('img/img8.jpeg');
 	
 		  align-content: center;
 			
@@ -393,7 +393,7 @@ grid-row-start: 1;
 
     grid-column-start:3;
     grid-column-end: 5;
-    background: url('https://cdn.britannica.com/39/132039-050-16EB5919/orbit-Earth-Sun-solstices-Tropics-of-Cancer.jpg');
+    background: url('img/img1.webp');
     background-size: 710px 500px;
     border-radius:10px 100px 50px 100px ;
 
